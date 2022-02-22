@@ -4,14 +4,14 @@
 
 body{
 
-    background: antiquewhite;
+    background: lavenderblush;
     color: cadetblue;
     /*font-size: 16px;
     font-weight: normal;
     font-family:'Roboto', sans-serif;*/
 
     font: normal 16px 'Roboto', sans-serif;
-    opacity: 0;
+    opacity: 1;
     transition: 1s;
     animation: show 1s 1 ease;
     animation-fill-mode: forwards;
@@ -37,8 +37,6 @@ h1{
 .avatar{
     width: 200px;
     height: 250px;
-    border-radius: 25px;
-    box-shadow: 4px 4px 14px rgba(0,0,0,025);
 }
 
 .info-text{
@@ -73,6 +71,7 @@ h1{
 
 .bg-yellow{
     background: #fff9dc;
+    text-align: center;
 }
 .bg-green{
     background:#e5ffe7 ;
@@ -102,7 +101,7 @@ h1{
 /*}*/
 
 .link-list{
-   list-style: url("apple.png");
+    /*list-style: url("apple.png");*/
     padding: 20px;
 }
 
@@ -143,6 +142,12 @@ h1{
 .row>.form-group{
     width: 50%;
 }
+.list{
+    padding: 10px;
+}
+.bg-red h2{
+    text-align: center;
+}
 /*работа с псевдоселекторами*/
 .row > .form-group:first-child{
     margin-right: 20px;
@@ -163,7 +168,7 @@ h1{
     opacity: 0.9;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .info{
         text-align: center;
         display: block;
@@ -180,17 +185,17 @@ h1{
 
 
 
-@keyframes show{
-    0%{
-        opacity:0;
-        background-color: black;
-        transform: scaleY(30);
-    }
-    100% {
-        opacity:1;
-        background-color: antiquewhite;
-    }
-}
+/*@keyframes show{*/
+/*    0%{*/
+/*        opacity:0;*/
+/*        background-color: black;*/
+/*        transform: scaleY(30);*/
+/*    }*/
+/*    100% {*/
+/*        opacity:1;*/
+/*        background-color: antiquewhite;*/
+/*    }*/
+/*}*/
 /*Position*/
 /*.position{*/
 /*    border: 4px solid black;*/
@@ -214,3 +219,7 @@ h1{
 /*    border-top-style: dotted;*/
 /*    margin: 10px;*/
 /*}*/
+a{
+    transition: all .5s ease;
+}
+
