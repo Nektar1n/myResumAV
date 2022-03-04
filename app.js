@@ -24,8 +24,12 @@ const isMobile = {
 if (isMobile.any()){
     document.body.classList.add('_touch')
     console.log('hey')
-    document.querySelector('.list').style.fontSize='15px'
-    document.querySelector('.list').style.padding='40px'
+    document.querySelectorAll('.list').forEach((list)=>{
+        list.style.fontSize='12px'
+        list.style.padding='40px'
+    })
+    // document.querySelector('.list').style.fontSize='15px'
+    // document.querySelector('.list').style.padding='40px'
     document.querySelector('.avatar').style.marginTop='200px'
     document.querySelector('.info').style.fontSize='30px'
 }else {
