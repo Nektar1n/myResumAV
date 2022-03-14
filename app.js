@@ -21,17 +21,23 @@ const isMobile = {
     }
 };
 
+const avatar=document.querySelector('.avatar')
+
 if (isMobile.any()){
     document.body.classList.add('_touch')
     console.log('hey')
     document.querySelectorAll('.list').forEach((list)=>{
-        list.style.fontSize='12px'
+        list.style.fontSize='1.1rem'
         list.style.padding='40px'
     })
     // document.querySelector('.list').style.fontSize='15px'
     // document.querySelector('.list').style.padding='40px'
-    document.querySelector('.avatar').style.marginTop='200px'
-    document.querySelector('.info').style.fontSize='30px'
+    document.querySelector('.avatar').style.marginTop='50px'
+    document.querySelector('.info').style.fontSize='1.1rem'
+    document.querySelector('.info').style.display='block'
+    document.querySelector('.info').style.textAlign='center'
+    document.querySelector('.avatar').style.height='300px'
 }else {
     document.body.classList.add('_pc')
 }
+
