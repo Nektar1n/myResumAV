@@ -36,7 +36,7 @@ if (isMobile.any()){
     document.querySelector('.info').style.fontSize='1.1rem'
     document.querySelector('.info').style.display='block'
     document.querySelector('.info').style.textAlign='center'
-    document.querySelector('.avatar').style.height='300px'
+    document.querySelector('.avatar').style.height='450px'
 }else {
     document.body.classList.add('_pc')
 }
