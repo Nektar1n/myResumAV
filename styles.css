@@ -4,7 +4,7 @@
 
 body{
 
-    background: lavenderblush;
+    background: darkseagreen;
     color: cadetblue;
     /*font-size: 16px;
     font-weight: normal;
@@ -31,7 +31,7 @@ a:active{
     color: aquamarine;
 }
 h1{
-    color: chocolate;
+    color: white;
 }
 
 .avatar{
@@ -39,6 +39,8 @@ h1{
     /*height: 250px;*/
     height: 250px;
     transition: all .2s ease;
+   border-radius: 20px;
+    box-shadow: #224523 0px 5px, #204A26 0px 10px, #3D6E32 0px 15px, #56A24F 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 
 .info-text{
@@ -55,7 +57,7 @@ h1{
 }
 
 .info p{
-    color: darkblue;
+    color: black;
     margin: 0;
     /*text-decoration: underline;*/
     font-weight: bold;
@@ -68,24 +70,39 @@ h1{
 .container{
     max-width: 750px;
     margin: auto;
-    padding-top: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: rgba(95,122,87,0.79);
+    border-radius: 10px;
 }
 
 .bg-yellow{
     background: #fff9dc;
     text-align: center;
+    box-shadow: #224523 0px 5px, #204A26 0px 10px, #3D6E32 0px 15px, #56A24F 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
 }
 .bg-green{
     background:#e5ffe7 ;
+    box-shadow: #224523 0px 5px, #204A26 0px 10px, #3D6E32 0px 15px, #56A24F 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
 }
 
 .bg-red{
     background:#ffe5e5 ;
+    box-shadow: #224523 0px 5px, #204A26 0px 10px, #3D6E32 0px 15px, #56A24F 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
 }
 .card{
     padding: 15px 20px;
     margin-bottom: 20px;
     border-radius: 20px;
+}
+h4{
+    color:black;
+}
+.social{
+    color:black;
 }
 
 .table{
